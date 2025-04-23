@@ -13,7 +13,7 @@ Welcome to the pinnacle of DIY AI hubris. This guide sets up large language mode
 ## 📦 Step 1: Clone the Repo and llama.cpp Submodule
 
 ```bash
-git clone --recurse-submodules https://github.com/yourusername/local-llm-vlm
+git clone --recurse-submodules https://github.com/Dorteel/local_llm
 cd local-llm-vlm
 # If you forget the submodule flag:
 git submodule update --init --recursive
