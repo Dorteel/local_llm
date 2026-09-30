@@ -1,0 +1,1 @@
+Explain $topic to a $audience. Use one concrete example.

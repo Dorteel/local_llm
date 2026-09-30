@@ -1,0 +1,4 @@
+Solve this programming task: $task
+Return only a JSON object with exactly these four string fields:
+{"explanation": "brief reasoning", "language": "python", "code": "complete solution", "tests": "assert-based tests"}
+Use valid JSON escaping for newlines in code and tests. Do not use Markdown fences.

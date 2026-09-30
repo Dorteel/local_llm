@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["explanation", "language", "code", "tests"],
+  "additionalProperties": false,
+  "properties": {
+    "explanation": {"type": "string"},
+    "language": {"const": "python"},
+    "code": {"type": "string", "minLength": 1},
+    "tests": {"type": "string", "minLength": 1}
+  }
+}
